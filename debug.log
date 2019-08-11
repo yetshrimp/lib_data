@@ -1,0 +1,71 @@
+2019-08-09 19:40:07,023 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:35] - ERROR: 用户名和密码读取失败
+2019-08-09 19:43:28,405 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:35] - ERROR: 用户名和密码读取失败
+2019-08-10 12:58:56,623 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 12:59:01,785 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room6 Connection lost
+2019-08-10 12:59:06,932 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room7 Connection lost
+2019-08-10 12:59:12,085 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room8 Connection lost
+2019-08-10 12:59:17,248 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room9 Connection lost
+2019-08-10 12:59:22,403 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room10 Connection lost
+2019-08-10 12:59:27,557 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room11 Connection lost
+2019-08-10 12:59:32,701 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room12 Connection lost
+2019-08-10 12:59:37,849 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room16 Connection lost
+2019-08-10 13:02:41,971 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 13:02:47,128 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room6 Connection lost
+2019-08-10 13:04:23,157 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 14:37:03,378 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 14:37:08,538 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room6 Connection lost
+2019-08-10 14:47:50,385 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:11:20,368 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:11:25,524 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room6 Connection lost
+2019-08-10 15:11:30,668 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room7 Connection lost
+2019-08-10 15:11:35,810 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room8 Connection lost
+2019-08-10 15:11:40,972 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room9 Connection lost
+2019-08-10 15:11:46,119 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room10 Connection lost
+2019-08-10 15:11:51,280 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room11 Connection lost
+2019-08-10 15:11:56,441 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room12 Connection lost
+2019-08-10 15:12:01,598 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room16 Connection lost
+2019-08-10 15:12:06,756 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room4 Connection lost
+2019-08-10 15:12:11,897 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room5 Connection lost
+2019-08-10 15:12:17,057 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room14 Connection lost
+2019-08-10 15:12:22,217 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room15 Connection lost
+2019-08-10 15:12:27,373 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room19 Connection lost
+2019-08-10 15:12:32,532 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room29 Connection lost
+2019-08-10 15:12:37,688 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room31 Connection lost
+2019-08-10 15:12:42,840 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room32 Connection lost
+2019-08-10 15:12:47,999 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room33 Connection lost
+2019-08-10 15:12:53,162 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room34 Connection lost
+2019-08-10 15:12:58,321 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room35 Connection lost
+2019-08-10 15:13:03,480 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room37 Connection lost
+2019-08-10 15:13:08,636 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room38 Connection lost
+2019-08-10 15:13:13,783 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room20 Connection lost
+2019-08-10 15:13:18,941 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room21 Connection lost
+2019-08-10 15:13:24,079 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room23 Connection lost
+2019-08-10 15:13:29,235 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room24 Connection lost
+2019-08-10 15:13:34,387 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room26 Connection lost
+2019-08-10 15:13:39,538 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room27 Connection lost
+2019-08-10 15:13:45,091 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room39 Connection lost
+2019-08-10 15:13:50,236 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room40 Connection lost
+2019-08-10 15:13:55,381 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room51 Connection lost
+2019-08-10 15:14:00,525 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room52 Connection lost
+2019-08-10 15:14:05,676 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room56 Connection lost
+2019-08-10 15:14:10,817 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room59 Connection lost
+2019-08-10 15:14:15,953 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room60 Connection lost
+2019-08-10 15:14:21,104 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room61 Connection lost
+2019-08-10 15:14:26,249 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room62 Connection lost
+2019-08-10 15:14:31,398 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room65 Connection lost
+2019-08-10 15:14:36,543 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room66 Connection lost
+2019-08-10 15:14:56,464 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:17:52,486 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:18:39,283 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:34:53,144 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:36:35,416 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 15:38:58,643 - D:/我的资料们/编程文件/数据分析/图书馆数据/main.py[line:51] - ERROR: 获取新token失败
+2019-08-10 17:42:30,258 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room7 Connection lost
+2019-08-10 17:42:35,414 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room8 Connection lost
+2019-08-10 17:42:40,561 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room9 Connection lost
+2019-08-10 17:45:52,325 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room12 Connection lost
+2019-08-10 17:45:57,484 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room16 Connection lost
+2019-08-10 17:46:02,628 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room4 Connection lost
+2019-08-10 17:46:07,786 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room5 Connection lost
+2019-08-10 17:46:12,947 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:109] - ERROR: room14 Connection lost
+2019-08-11 18:19:25,066 - D:\我的资料们\编程文件\数据分析\图书馆数据\SeatScanner.py[line:107] - ERROR: room33 Connection lost
