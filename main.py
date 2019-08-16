@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 
+import pandas as pd
 import SeatScanner
+import Data_save
 import Logger
 import datetime
-import pandas as pd
 import os
 
-
-auto = 1               # 标记：自动设置数据或命令行设置数据，1为自动
+auto = 1  # 标记：自动设置数据或命令行设置数据，1为自动
 
 log1 = Logger.Logger(filename='debug.log', level='warning')
 
 
-def getMinuteSparse(minute):                 # 将分钟转化为间隔编号
+def getMinuteSparse(minute):  # 将分钟转化为间隔编号
     if 0 <= minute and minute < 15:
         return 0
     elif minute >= 15 and minute < 30:
@@ -26,7 +26,7 @@ def getMinuteSparse(minute):                 # 将分钟转化为间隔编号
         return False
 
 
-def getData(num):                          # 从表中读取用户名和密码
+def getData(num):  # 从表中读取用户名和密码
     try:
         logData = pd.read_excel('logIn.xlsx', header=0, index_col=None)
         _username = str(logData.loc[num]['username'])
@@ -36,7 +36,6 @@ def getData(num):                          # 从表中读取用户名和密码
     except:
         log1.logger.error('用户名和密码读取失败')
         return False
-
 
 
 def getToken(SS):
@@ -50,7 +49,7 @@ def getToken(SS):
     return False
 
 
-def getDateStr():                   # 设置开始时间，默认为即刻开始
+def getDateStr():  # 设置开始时间，默认为即刻开始
     t = datetime.datetime.now()
     if auto:
         return t
@@ -64,7 +63,7 @@ def getDateStr():                   # 设置开始时间，默认为即刻开始
             return datetime.datetime.strptime(dateStr, "%Y-%m-%d %H:%M:%S")
 
 
-def getBuildingId():                # 设置要扫描的分馆编号，默认为全部扫描
+def getBuildingId():  # 设置要扫描的分馆编号，默认为全部扫描
     if auto:
         buildingId = '1234'
     else:
@@ -101,7 +100,7 @@ if __name__ == '__main__':
         allRoom = 0
         successRoom = 0
 
-        username, password = getData(++num % length)           # 循环登陆表中用户，防止被封号
+        username, password = getData(++num % length)  # 循环登陆表中用户，防止被封号
         print(username)
         SS = SeatScanner.SeatScanner(username, password)
         getToken(SS)
@@ -130,11 +129,15 @@ if __name__ == '__main__':
                 if SS.GetSeats(room, building, str(date), hour, minuteSparse, log1):
                     successRoom += 1
 
-        with open('temData.txt', 'a') as f:                     # 将每次扫描结果写入临时文件
+        with open('temData.txt', 'a') as f:  # 将每次扫描结果写入临时文件
             f.write('startTime:' + startTime.strftime("%Y-%m-%d %H:%M:%S") + ' allRoom:' + str(allRoom) +
-                    ' successRoom:' + str(successRoom) + ' failRoom:' + str(allRoom-successRoom) + '\n')
+                    ' successRoom:' + str(successRoom) + ' failRoom:' + str(allRoom - successRoom) + '\n')
 
         print(SS.seatData[:20])
-        SS.seatData.to_csv('seatData.csv', mode='a', header=not os.path.exists('seatData.csv'))
-        startTime += datetime.timedelta(minutes=15)
 
+        # 将所爬取的数据存入数据库
+        DS = Data_save.DataSaver()
+        DS.save(SS.seatData)
+
+        # SS.seatData.to_csv('seatData.csv', mode='a', header=not os.path.exists('seatData.csv'))
+        startTime += datetime.timedelta(minutes=15)
